@@ -1,6 +1,6 @@
 import transformerDirectives from "@unocss/transformer-directives";
 import { defineConfig, presetWebFonts, presetWind } from "unocss";
-import presetAnimations from "unocss-preset-animations";
+import { presetAnimations } from "unocss-preset-animations";
 
 // https://unocss.dev
 export default defineConfig({
