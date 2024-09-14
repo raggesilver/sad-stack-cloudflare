@@ -8,6 +8,7 @@ import {
 } from "@remix-run/react";
 
 import "@unocss/reset/tailwind.css";
+import "virtual:uno.css";
 import "./main.css";
 
 export const links: LinksFunction = () => [

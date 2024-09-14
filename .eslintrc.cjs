@@ -34,6 +34,10 @@ module.exports = {
         "plugin:react-hooks/recommended",
         "plugin:jsx-a11y/recommended",
       ],
+      rules: {
+        // Ignore virtual imports
+        "import/no-unresolved": ["error", { ignore: ["^virtual:"] }],
+      },
       settings: {
         react: {
           version: "detect",
