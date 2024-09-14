@@ -12,7 +12,8 @@
     "start": "wrangler dev",
     "typecheck": "tsc",
     "typegen": "wrangler types",
-    "db:genereate": "drizzle-kit generate"
+    "db:generate": "drizzle-kit generate",
+    "db:migrate:local": "wrangler d1 migrations apply -c wrangler.toml --local <YOUR_DATABASE_NAME>"
   },
   "dependencies": {
     "@cloudflare/kv-asset-handler": "^0.3.4",
