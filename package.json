@@ -11,7 +11,8 @@
     "format": "prettier --write .",
     "start": "wrangler dev",
     "typecheck": "tsc",
-    "typegen": "wrangler types"
+    "typegen": "wrangler types",
+    "db:genereate": "drizzle-kit generate"
   },
   "dependencies": {
     "@cloudflare/kv-asset-handler": "^0.3.4",

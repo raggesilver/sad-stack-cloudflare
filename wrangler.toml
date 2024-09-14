@@ -10,3 +10,9 @@ bucket = "./build/client"
 
 [build]
 command = "bun run build"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "CHANGE_ME"
+database_id = "CHANGE_ME"
+migrations_dir = "migrations"
